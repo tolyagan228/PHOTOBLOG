@@ -83,8 +83,10 @@ padding-bottom: 66px;
   flex-basis: 420px;
 }
 .main-content-img {
-padding-top: 92px;
-padding-bottom: 62px ;
+margin-bottom: 62px ;
+}
+.main-content-item:nth-child(n+3) .main-content-img {
+  margin-bottom: 32px;
 }
 .main-contant-title {
   display: none;
@@ -94,6 +96,7 @@ padding-bottom: 62px ;
   font-family: Ubuntu;
   font-size: 14px;
   margin-bottom: 32px;
+  text-transform: uppercase;
 }
 .main-content-item-title {
   color: var(--main-color);
